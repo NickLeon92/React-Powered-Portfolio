@@ -4,12 +4,14 @@ import AboutMe from './components/AboutMe'
 import Contact from './components/Contact'
 import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
+import Home from "./components/Home";
 
-const App = () => {
+function App(){
 
-    const [currentPage,setPage] = useState('AboutMe')
+    const [currentPage,setPage] = useState('Home')
 
     const renderPage = () => {
+        console.log(currentPage)
         if (currentPage === 'AboutMe'){
             return <AboutMe/>
         }
@@ -22,9 +24,11 @@ const App = () => {
         if (currentPage === 'Resume'){
             return <Resume/>
         }
+        return <Home/>
     }
 
-    const pageHandler = (page) => setPage(page)
+    const pageHandler = (page) => {console.log(page)
+         setPage(page)}
 
     return (
         <div>
