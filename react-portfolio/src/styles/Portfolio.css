@@ -133,6 +133,12 @@ nav a {
 }
 
 #first-demo {
+    margin-top: 15px;
+    transition: all .2s ease-in-out;
+    box-shadow: 10px 5px 20px black;
+}
+
+#second-demo {
     transition: all .2s ease-in-out;
     box-shadow: 10px 5px 20px black;
 }

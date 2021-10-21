@@ -2,15 +2,18 @@ import React from "react";
 import pic1 from '../images/profile.JPG'
 import pic2 from '../images/demo.JPG'
 import pic3 from '../images/deployed application.JPG'
+import Title from './animations/title'
+import Footer from './animations/footer'
 import '../styles/Portfolio.css'
 
 function Portfolio() {
+    const text = 'My Work (so far!)'
     return (
         <div class="worksection" id="goWork">
         
-        <h2 id="Work">Work</h2> 
+        <Title text={text}/> 
 
-        <div id="sidebar">
+        
  
         <section id="first-demo">
             <div class="pictureContainer">
@@ -24,7 +27,7 @@ function Portfolio() {
         </section>
 
         <div class="bottomsection">
-            <section id="first-demo">
+            <section id="second-demo">
                 <div class="pictureContainer">
                     <a href="https://nickleon92.github.io/Project-1/"><img src={pic2} alt="Avatar" class="image"/></a>
                     <div class="overlay">Cocktail Drink Recipes and trivia knowledge</div>
@@ -33,7 +36,7 @@ function Portfolio() {
                     </a>
                   </div>
             </section>
-            <section id="first-demo">
+            <section id="second-demo">
                 <div class="pictureContainer">
                     <a href="https://nickleon92.github.io/Code-Quiz/#"><img src={pic3} alt="Avatar" class="image"/></a>
                     <div class="overlay">Timed Coding Quiz</div>
@@ -45,7 +48,9 @@ function Portfolio() {
 
             
         </div>
-    </div>
+
+    
+        <Footer/>
     </div>
     )
 }

@@ -1,7 +1,13 @@
 import React from "react";
+import Title from './animations/title'
+import Footer from './animations/footer'
 
 function Contact() {
-    return <h1>Contact Me</h1>
+    const text = "Let's Get in Touch!"
+    return (<div>
+        <Title text={text}/>
+        <Footer/>
+        </div>)
 }
 
 export default Contact
