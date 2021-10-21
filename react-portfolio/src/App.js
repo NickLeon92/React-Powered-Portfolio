@@ -6,6 +6,8 @@ import Portfolio from './components/Portfolio'
 import Resume from './components/Resume'
 import Home from "./components/Home";
 
+
+
 function App(){
 
     const [currentPage,setPage] = useState('Home')
@@ -32,6 +34,7 @@ function App(){
 
     return (
         <div>
+
             <Navbar currentPage={currentPage} pageHandler={pageHandler}/>
             {renderPage()}
         </div>

@@ -1,7 +1,9 @@
 import React from "react";
+import Title from './animations/title'
+const text = "About me"
 
 function AboutMe() {
-    return <h1>About Me</h1>
+    return <Title text={text}/>
 }
 
 export default AboutMe
