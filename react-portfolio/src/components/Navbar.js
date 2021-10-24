@@ -4,7 +4,7 @@ function Navbar(props) {
     
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a className="navbar-brand" href="Home">Explore:</a>
+            <a className="navbar-brand" >Explore:</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
@@ -12,7 +12,7 @@ function Navbar(props) {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <a href="Home"
+                        <a href="#Home"
                         onClick = {(e)=>{e.preventDefault()
                             if (document.getElementById("navbarSupportedContent").classList.contains("show")) {
                                 document.getElementById("navbarSupportedContent").classList.remove("show")
@@ -25,7 +25,7 @@ function Navbar(props) {
                         >Home</a>
                     </li>
                     <li className="nav-item">
-                        <a href="AboutMe"
+                        <a href="#AboutMe"
                         onClick = {(e)=>{e.preventDefault()
                             if (document.getElementById("navbarSupportedContent").classList.contains("show")) {
                                 document.getElementById("navbarSupportedContent").classList.remove("show")
@@ -38,7 +38,7 @@ function Navbar(props) {
                         >About Me</a>
                     </li>
                     <li className="nav-item">
-                        <a href="Portfolio"
+                        <a href="#Portfolio"
                         onClick = {(e)=>{e.preventDefault()
                             if (document.getElementById("navbarSupportedContent").classList.contains("show")) {
                                 document.getElementById("navbarSupportedContent").classList.remove("show")
@@ -51,7 +51,7 @@ function Navbar(props) {
                         >My Portfolio</a>
                     </li>
                     <li className="nav-item">
-                        <a href="Resume"
+                        <a href="#Resume"
                         onClick = {(e)=>{e.preventDefault()
                             if (document.getElementById("navbarSupportedContent").classList.contains("show")) {
                                 document.getElementById("navbarSupportedContent").classList.remove("show")
@@ -64,7 +64,7 @@ function Navbar(props) {
                         >Resume</a>
                     </li>
                     <li className="nav-item">
-                        <a href="Contact"
+                        <a href="#Contact"
                         onClick = {(e)=>{e.preventDefault()
                             if (document.getElementById("navbarSupportedContent").classList.contains("show")) {
                                 document.getElementById("navbarSupportedContent").classList.remove("show")

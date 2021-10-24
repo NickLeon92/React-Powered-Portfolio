@@ -14,7 +14,7 @@ export default function Title(text) {
                         <a href="https://github.com/NickLeon92/"><img src={github} alt="" class="social"/></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/nick-leon-5b338aa3/"><img src={linkdin} alt="" class="social"/></a>
+                        <a href="https://www.linkedin.com/in/nick-leon-5b338aa3/"><img src={linkdin} alt="" className="social"/></a>
                     </li>
                 </ul>
             </div>

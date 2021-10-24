@@ -1,57 +1,99 @@
-import React from "react";
-import pic1 from '../images/profile.JPG'
-import pic2 from '../images/demo.JPG'
-import pic3 from '../images/deployed application.JPG'
+import React, { useEffect, useState } from "react";
 import Title from './animations/title'
 import Footer from './animations/footer'
+import Card from './animations/card'
 import '../styles/Portfolio.css'
 
+const works = [
+    {
+        picId: 1,
+        description: 'Social Media Site for Gamers!',
+        repoLink: 'https://github.com/Gaitherdb/Social-Game-Library',
+        appLink: 'https://secret-beach-64321.herokuapp.com/',
+
+    },
+    {
+        picId: 2,
+        description: 'Cocktail Recipe and Trivia Search Engine',
+        repoLink: 'https://github.com/NickLeon92/Project-1',
+        appLink: 'https://nickleon92.github.io/Project-1/',
+
+    },
+    {
+        picId: 3,
+        description: 'Public Tech Blog',
+        repoLink: 'https://github.com/NickLeon92/MVC-Tech-Blog',
+        appLink: 'https://open-tech-blog.herokuapp.com/',
+
+    },
+    {
+        picId: 4,
+        description: 'MongoDB Powered Fitness Tracker',
+        repoLink: 'https://github.com/NickLeon92/Workout-Tracker',
+        appLink: 'https://my-cool-workout-tracker.herokuapp.com',
+
+    },
+    {
+        picId: 5,
+        description: 'Save Notes to a Server',
+        repoLink: 'https://github.com/NickLeon92/Note-Taker',
+        appLink: 'https://note-taker-nl92.herokuapp.com/',
+
+    },
+    {
+        picId: 6,
+        description: 'Timed Coding Quiz',
+        repoLink: 'https://github.com/NickLeon92/Code-Quiz',
+        appLink: 'https://nickleon92.github.io/Code-Quiz/#',
+
+    }
+]
+
+
+
 function Portfolio() {
-    const text = 'My Work (so far!)'
+
+    // const [count,setCount] = useState('hello')
+
+    // useEffect(()=>{
+    //     setTimeout(() => {
+    //         if (count.length === 12){
+    //             return
+    //         }
+    //         console.log(count.length-6)
+    //         array.push(works[count.length-6])
+    //         console.log(array)
+    //         setCount(count+'o')
+    //     }, 1000);
+    // })
+
+    const [array,setArray] = useState([])
+
+    useEffect(() => {
+        for (let i = 1; i <= 6; i++) {
+          setTimeout(() => setArray((prevState) => [...prevState, works[i-1]]), 100 * i);
+        }
+      }, []);
+
+    const text = 'Select Works'
+
     return (
-        <div class="worksection" id="goWork">
-        
-        <Title text={text}/> 
+        <div id='container'>
 
-        
- 
-        <section id="first-demo">
-            <div class="pictureContainer">
-                <a href="https://secret-beach-64321.herokuapp.com/"><img src={pic1} alt="Avatar" class="image" id="first-demo-pic"/></a>
-                <div class="overlay">Social Media Site For Gamers!</div>
-                <a href="https://github.com/Gaitherdb/Social-Game-Library">
-                    <button href = "https://github.com/Gaitherdb/Social-Game-Library" type="button" class="btn btn-primary" id="repo">Repository</button>
-                </a>
-                
-              </div>
-        </section>
+            <Title text={text} />
 
-        <div class="bottomsection">
-            <section id="second-demo">
-                <div class="pictureContainer">
-                    <a href="https://nickleon92.github.io/Project-1/"><img src={pic2} alt="Avatar" class="image"/></a>
-                    <div class="overlay">Cocktail Drink Recipes and trivia knowledge</div>
-                    <a href="https://github.com/NickLeon92/Project-1">
-                        <button href = "https://github.com/NickLeon92/Project-1" type="button" class="btn btn-primary" id="repo">Repository</button>
-                    </a>
-                  </div>
-            </section>
-            <section id="second-demo">
-                <div class="pictureContainer">
-                    <a href="https://nickleon92.github.io/Code-Quiz/#"><img src={pic3} alt="Avatar" class="image"/></a>
-                    <div class="overlay">Timed Coding Quiz</div>
-                    <a href="https://github.com/NickLeon92/Code-Quiz">
-                        <button href = "https://github.com/NickLeon92/Code-Quiz" type="button" class="btn btn-primary" id="repo">Repository</button>
-                    </a>
-                  </div>
-            </section>
 
-            
+            <div class="worksection" id="goWork">
+
+                <div class="bottomsection">
+                        {array.map(work => <Card picId={work.picId} description={work.description} repoLink={work.repoLink} appLink={work.appLink} key={work.picId}/>)}
+                </div>
+
+            </div>
+
+            <Footer />
+
         </div>
-
-    
-        <Footer/>
-    </div>
     )
 }
 
