@@ -5,8 +5,9 @@ import demo3 from '../../images/demo3.JPG'
 import demo4 from '../../images/demo4.JPG'
 import demo5 from '../../images/demo5.JPG'
 import demo6 from '../../images/demo6.JPG'
+import demo7 from '../../images/demo7.JPG'
 
-const pic = [demo1, demo2, demo3, demo4, demo5, demo6]
+const pic = [demo7, demo1, demo3, demo4, demo5, demo6]
 
 export default function Card(details) {
 

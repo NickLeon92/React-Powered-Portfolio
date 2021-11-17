@@ -7,16 +7,16 @@ import '../styles/Portfolio.css'
 const works = [
     {
         picId: 1,
-        description: 'Social Media Site for Gamers!',
-        repoLink: 'https://github.com/Gaitherdb/Social-Game-Library',
-        appLink: 'https://secret-beach-64321.herokuapp.com/',
+        description: 'Group Chat app with online statuses and notifications',
+        repoLink: 'https://github.com/NickLeon92/live-chat-app',
+        appLink: 'https://realtime-rooms.herokuapp.com/',
 
     },
     {
         picId: 2,
-        description: 'Cocktail Recipe and Trivia Search Engine',
-        repoLink: 'https://github.com/NickLeon92/Project-1',
-        appLink: 'https://nickleon92.github.io/Project-1/',
+        description: 'Social Media Site for Gamers!',
+        repoLink: 'https://github.com/Gaitherdb/Social-Game-Library',
+        appLink: 'https://secret-beach-64321.herokuapp.com/',
 
     },
     {

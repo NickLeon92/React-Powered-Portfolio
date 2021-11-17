@@ -1,7 +1,7 @@
 import React from "react";
 import Title from './animations/title'
 import Footer from './animations/footer'
-import myResume from '../images/resume.pdf'
+import myResume from '../images/Nick_Leon_resume.pdf'
 
 function Resume() {
     const text = "My Resume"
