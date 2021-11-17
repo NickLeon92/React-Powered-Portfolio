@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Powered-Portfolio/static/css/main.c5c60b6a.chunk.css",
-    "main.js": "/React-Powered-Portfolio/static/js/main.886d434a.chunk.js",
-    "main.js.map": "/React-Powered-Portfolio/static/js/main.886d434a.chunk.js.map",
+    "main.js": "/React-Powered-Portfolio/static/js/main.f398d259.chunk.js",
+    "main.js.map": "/React-Powered-Portfolio/static/js/main.f398d259.chunk.js.map",
     "runtime-main.js": "/React-Powered-Portfolio/static/js/runtime-main.9f7162d2.js",
     "runtime-main.js.map": "/React-Powered-Portfolio/static/js/runtime-main.9f7162d2.js.map",
     "static/css/2.0a9ec390.chunk.css": "/React-Powered-Portfolio/static/css/2.0a9ec390.chunk.css",
@@ -12,22 +12,23 @@
     "static/css/2.0a9ec390.chunk.css.map": "/React-Powered-Portfolio/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.c5c60b6a.chunk.css.map": "/React-Powered-Portfolio/static/css/main.c5c60b6a.chunk.css.map",
     "static/js/2.fb153e85.chunk.js.LICENSE.txt": "/React-Powered-Portfolio/static/js/2.fb153e85.chunk.js.LICENSE.txt",
+    "static/media/Nick_Leon_resume.c6f75504.pdf": "/React-Powered-Portfolio/static/media/Nick_Leon_resume.c6f75504.pdf",
     "static/media/demo1.4bb365d3.JPG": "/React-Powered-Portfolio/static/media/demo1.4bb365d3.JPG",
     "static/media/demo2.64395e7a.JPG": "/React-Powered-Portfolio/static/media/demo2.64395e7a.JPG",
     "static/media/demo3.d56c2e9a.JPG": "/React-Powered-Portfolio/static/media/demo3.d56c2e9a.JPG",
     "static/media/demo4.c2964272.JPG": "/React-Powered-Portfolio/static/media/demo4.c2964272.JPG",
     "static/media/demo5.bf3b8616.JPG": "/React-Powered-Portfolio/static/media/demo5.bf3b8616.JPG",
     "static/media/demo6.12c00b9f.JPG": "/React-Powered-Portfolio/static/media/demo6.12c00b9f.JPG",
+    "static/media/demo7.112b601b.JPG": "/React-Powered-Portfolio/static/media/demo7.112b601b.JPG",
     "static/media/github-icon.bc8a16cd.png": "/React-Powered-Portfolio/static/media/github-icon.bc8a16cd.png",
     "static/media/linkdin-icon.f5d66d49.png": "/React-Powered-Portfolio/static/media/linkdin-icon.f5d66d49.png",
-    "static/media/profile.613593f8.JPG": "/React-Powered-Portfolio/static/media/profile.613593f8.JPG",
-    "static/media/resume.ebba3177.pdf": "/React-Powered-Portfolio/static/media/resume.ebba3177.pdf"
+    "static/media/profile.613593f8.JPG": "/React-Powered-Portfolio/static/media/profile.613593f8.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.9f7162d2.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.fb153e85.chunk.js",
     "static/css/main.c5c60b6a.chunk.css",
-    "static/js/main.886d434a.chunk.js"
+    "static/js/main.f398d259.chunk.js"
   ]
 }
