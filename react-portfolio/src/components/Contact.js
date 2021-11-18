@@ -33,20 +33,22 @@ function Contact() {
     return (
         <div id='container'>
                 <Title text={text} />
-            <div style={{marginLeft:'15vw', marginRight:'15vw'}}  id = 'formContainer'>
+            <div  id = 'formContainer'>
                 <form onSubmit={sendEmail}>
-                    <div className="form-group">
+                    <div style={{display:'flex', justifyContent:'space-around', flexDirection:'column'}}>
+                    <div style={{width:'300px', margin:'auto'}} className="form-group">
                         <label for="exampleFormControlInput1">Name</label>
                         <input onChange={(e)=>setName(e.target.value)} value={name} name="name" type="Name" className="form-control" id="exampleFormControlInput1" placeholder="Name" />
                     </div>
                     <br/>
-                    <div className="form-group">
+                    <div style={{width:'300px', margin:'auto'}} className="form-group">
                         <label for="exampleFormControlInput1">Email address</label>
                         <input onChange={(e)=>setEmail(e.target.value)} value={email} name="email" type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
                     </div>
+                    </div>
                     <br/>
 
-                    <div className="form-group">
+                    <div style={{width:'400px', margin:'auto'}} className="form-group">
                         <label for="exampleFormControlTextarea1">Leave your message here!</label>
                         <textarea onChange={(e)=>setMessage(e.target.value)} value={message} name="message" className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                     </div>
