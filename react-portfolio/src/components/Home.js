@@ -7,7 +7,7 @@ import PofilePic from './animations/profilePic'
 
 function Home() {
 
-    const text = 'Nick Leon, Jr. Full Stack Developer'
+    const text = 'Nick Leon, Full Stack Engineer'
     
     return (
         <div  id="header">
