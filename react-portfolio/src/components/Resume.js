@@ -11,19 +11,19 @@ function Resume() {
         <h2>Front End Proficiencies</h2>
              <ul>
                 <li>
-                    React   
+                    React-Redux   
                 </li>
                 <li>
-                    HTLM
+                    NextJS
                 </li>
                 <li>
-                    JavaScript  
-                </li>
-                <li>
-                    CSS  
+                    Tailwind  
                 </li>
                 <li>
                     Bootstrap  
+                </li>
+                <li>
+                    Typescript  
                 </li>
             </ul>
             <h2>Back End Proficiencies</h2>
@@ -32,16 +32,16 @@ function Resume() {
                     NodeJS   
                 </li>
                 <li>
-                    MongoDB
+                    AWS Lambda & API Gateway
                 </li>
                 <li>
-                    MySQL2  
+                    MongoDB  
                 </li>
                 <li>
-                    Express  
+                    DynamoDB  
                 </li>
                 <li>
-                    graphQL  
+                    Express.js  
                 </li>
             </ul>
 
