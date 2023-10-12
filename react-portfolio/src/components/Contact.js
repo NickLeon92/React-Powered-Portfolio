@@ -60,6 +60,9 @@ function Contact() {
                     />
                 </form>
                 {/* <button style={{marginTop: '10px'}} type="button" class="btn btn-primary">Send Message</button> */}
+                <br />
+                <p>email: nicolas7@vt.edu</p>
+                <p>phone: 757-406-0965</p>
                 <Footer />
             </div>
 

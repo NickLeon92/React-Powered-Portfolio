@@ -7,9 +7,16 @@ import '../styles/Portfolio.css'
 const works = [
     {
         picId: 1,
-        description: 'Group Chat app with online statuses and notifications',
-        repoLink: 'https://github.com/NickLeon92/live-chat-app',
-        appLink: 'https://realtime-rooms.herokuapp.com/',
+        description: 'share playlists and help others build them',
+        repoLink: 'https://github.com/NickLeon92/Playlist-Social',
+        appLink: 'https://preprod--playlistener.netlify.app/',
+
+    },
+    {
+        picId: 3,
+        description: 'a chat app but you can see what people type as they type',
+        repoLink: 'https://github.com/NickLeon92/Anotyper',
+        appLink: 'https://www.anotype.app/',
 
     },
     {
@@ -20,28 +27,7 @@ const works = [
 
     },
     {
-        picId: 3,
-        description: 'Public Tech Blog',
-        repoLink: 'https://github.com/NickLeon92/MVC-Tech-Blog',
-        appLink: 'https://open-tech-blog.herokuapp.com/',
-
-    },
-    {
-        picId: 4,
-        description: 'MongoDB Powered Fitness Tracker',
-        repoLink: 'https://github.com/NickLeon92/Workout-Tracker',
-        appLink: 'https://my-cool-workout-tracker.herokuapp.com',
-
-    },
-    {
         picId: 5,
-        description: 'Save Notes to a Server',
-        repoLink: 'https://github.com/NickLeon92/Note-Taker',
-        appLink: 'https://note-taker-nl92.herokuapp.com/',
-
-    },
-    {
-        picId: 6,
         description: 'Timed Coding Quiz',
         repoLink: 'https://github.com/NickLeon92/Code-Quiz',
         appLink: 'https://nickleon92.github.io/Code-Quiz/#',
@@ -70,7 +56,7 @@ function Portfolio() {
     const [array,setArray] = useState([])
 
     useEffect(() => {
-        for (let i = 1; i <= 6; i++) {
+        for (let i = 1; i <= 4; i++) {
           setTimeout(() => setArray((prevState) => [...prevState, works[i-1]]), 100 * i);
         }
       }, []);

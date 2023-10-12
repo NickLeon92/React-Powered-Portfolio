@@ -1,11 +1,11 @@
 import { useSpring, animated } from 'react-spring'
 import demo1 from '../../images/demo1.JPG'
 import demo2 from '../../images/demo2.JPG'
-import demo3 from '../../images/demo3.JPG'
+import demo3 from '../../images/demo3.png'
 import demo4 from '../../images/demo4.JPG'
 import demo5 from '../../images/demo5.JPG'
 import demo6 from '../../images/demo6.JPG'
-import demo7 from '../../images/demo7.JPG'
+import demo7 from '../../images/demo7.png'
 
 const pic = [demo7, demo1, demo3, demo4, demo5, demo6]
 
